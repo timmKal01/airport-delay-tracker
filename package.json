@@ -1,0 +1,16 @@
+{
+    "name": "airport-delay-tracker",
+    "version": "0.1.0",
+    "type": "module",
+    "description": "Track current US airport ground delays, ground stops, and closures via the official FAA NAS status feed.",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "apify": "^3.2.6",
+        "cheerio": "^1.0.0"
+    },
+    "scripts": {
+        "start": "node src/main.js"
+    }
+}

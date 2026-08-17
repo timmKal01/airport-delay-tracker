@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Airport Delay Tracker",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Airport delay records",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

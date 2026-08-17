@@ -1,0 +1,15 @@
+{
+    "title": "Airport Delay Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "airportCodes": {
+            "title": "Airport codes",
+            "type": "array",
+            "editor": "stringList",
+            "description": "Limit to specific airports by their 3-letter FAA/IATA code, e.g. \"JFK\", \"ORD\", \"LAX\". Leave empty to return every airport currently affected nationwide.",
+            "default": []
+        }
+    },
+    "required": []
+}
