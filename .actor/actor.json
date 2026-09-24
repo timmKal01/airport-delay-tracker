@@ -1,7 +1,7 @@
 {
     "actorSpecification": 1,
     "name": "airport-delay-tracker",
-    "title": "Airport Delay Tracker — FAA Live NAS Status",
+    "title": "Airport Delay Tracker: Live FAA Delays & Stops",
     "description": "Get current US airport ground delays, ground stops, and closures straight from the official FAA National Airspace System status feed: airport, reason, average/max delay, and closure windows. For travel ops, logistics, and corporate travel teams.",
     "version": "0.1",
     "meta": {
