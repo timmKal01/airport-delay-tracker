@@ -1,0 +1,68 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "airport",
+                    "category",
+                    "reason",
+                    "avgDelay",
+                    "maxDelay",
+                    "Arrival_Departure",
+                    "start",
+                    "End_Time",
+                    "reopen",
+                    "updateTime"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "airport": {
+                        "label": "Airport",
+                        "format": "text"
+                    },
+                    "category": {
+                        "label": "Category",
+                        "format": "text"
+                    },
+                    "reason": {
+                        "label": "Reason",
+                        "format": "text"
+                    },
+                    "avgDelay": {
+                        "label": "Avg delay",
+                        "format": "text"
+                    },
+                    "maxDelay": {
+                        "label": "Max delay",
+                        "format": "text"
+                    },
+                    "Arrival_Departure": {
+                        "label": "Arrival departure",
+                        "format": "text"
+                    },
+                    "start": {
+                        "label": "Start",
+                        "format": "text"
+                    },
+                    "End_Time": {
+                        "label": "End time",
+                        "format": "text"
+                    },
+                    "reopen": {
+                        "label": "Reopen",
+                        "format": "text"
+                    },
+                    "updateTime": {
+                        "label": "Update time",
+                        "format": "text"
+                    }
+                }
+            }
+        }
+    }
+}
