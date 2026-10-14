@@ -2,7 +2,7 @@
     "actorSpecification": 1,
     "name": "airport-delay-tracker",
     "title": "Airport Delay Tracker: Live FAA Delays & Stops",
-    "description": "Get current US airport ground delays, ground stops, and closures straight from the official FAA National Airspace System status feed: airport, reason, average/max delay, and closure windows. For travel ops, logistics, and corporate travel teams.",
+    "description": "Live U.S. airport delays, ground stops and closures from the official FAA status feed: airport, reason, average and maximum delay, and closure windows. For travel management, corporate travel, logistics and air freight teams planning around flight disruption.",
     "version": "0.1",
     "meta": {
         "templateId": "custom-no-proxy"

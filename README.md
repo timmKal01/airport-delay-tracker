@@ -1,11 +1,24 @@
-# Airport Delay Tracker — FAA Live NAS Status
+# Airport Delay Tracker: Live FAA Delays & Stops
 
-Get current US airport ground delays, ground stops, and closures
-straight from the official FAA National Airspace System status feed:
-airport, reason, average/max delay, and closure windows.
+Live U.S. flight disruption data for travel management, corporate travel,
+logistics and air freight teams. See which airports have ground delays,
+ground stops or closures right now, why, and how long the delays are, from
+the official FAA National Airspace System status.
 
-Built for travel ops, logistics, and corporate travel teams who need
-current airport-impact status without checking fly.faa.gov by hand.
+## What you get
+
+One row per airport disruption:
+
+- The airport and the type of disruption (ground delay, ground stop, closure)
+- The reason, such as weather or traffic volume
+- Average and maximum delay, or the closure window and reopening time
+- When the FAA last updated it
+
+## Who this is for
+
+- **Travel management and corporate travel teams** rebooking travellers when an airport is delayed.
+- **Logistics and air freight teams** planning around airport disruptions.
+- **Travel apps and alert services** showing current airport status.
 
 ## Input
 
